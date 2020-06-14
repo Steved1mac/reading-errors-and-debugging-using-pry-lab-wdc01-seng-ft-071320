@@ -6,11 +6,12 @@ end
 
 
 def state_log(star_date)
+  star_date = 2020
   "Captain's Log, star date #{star_date}."
 end
 
 def engage
-  binding pry 
+   
   puts state_log(date)
   date = generate_star_date
 end
